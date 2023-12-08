@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Money Tracker</title>
+</head>
+<body>
+    <h1>MY MONEY TRACKER</h1>
+    <a href='login.html'><button id="k">Login</button></a>
+    <a href='register.html'><button id="l">Register</button></a>
+
+
+    <a href='Query.html'><button id="h">Query</button></a>
+    <a href='share.html'><button id="v">Share</button></a>
+    <div class="input-section">
+        <label for="category-select">Category:</label>
+        <select id="category-select">
+            <option value="Food & Drinks">Food & Drinks</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Housing">Housing</option>
+            <option value="Fuel">Fuel</option>
+            <option value="Leasing">Leasing</option>
+            <option value="Parking">Parking</option>
+            <option value="Rentals">Rentals</option>
+            <option value="Vehicle insurance">Vehicle insurance</option>
+            <option value="Vehicle maintenance">Vehicle maintenance</option>
+            <option value="Buisiness Trips">Buisiness Trips</option>
+            <option value="Long Trips">Long Trips</option>
+            <option value="Taxi">Taxi</option>
+            <option value="Public Transport">Public Transport</option>
+            <option value="Clothes and Shoes">Clothes and Shoes</option>
+            <option value="Drug-Store">Drug Store</option>
+            <option value="Electronics and Accessories">Electronics and Accessories</option>
+            <option value="Health and Beauty">Health and Beauty</option>
+            <option value="Jewels">Jewels</option>
+            <option value="Stationary">Stationary</option>
+            <option value="Pets or Animals">pets or Animals</option>
+            <option value="Internet or Wifi">Internet or Wifi</option>
+            <option value="Postal Services">Postal Services</option>
+            <option value="Loans or Intrests">Loans or Intrests</option>
+            <option value="Charges or Fees">Charges or Fees</option>
+            <option value="Maintenance or Repairs">Maintenance or Repairs</option>
+            
+        </select>
+        <label for="amount-input">Amount (INR):</label>
+        <input type="number" id="amount-input">
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input">
+        <button id="add-btn">Add</button>
+    </div>
+    <div class="My Expenses">
+        <h2><ul>My Expenses</ul></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expnese-table-body">
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Expenses(INR):</td>
+                    <td id="total-amount"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  #k{
+    margin-left:150px;
+  }
+  #h{
+    margin-left:40px;
+  }
+  #l{
+    margin-left:50px;
+  }
+  #v{
+    margin-left:10px;
+  }
+  h1 {
+    font-family:'Times New Roman', Times, serif ;
+    display: inline-block;
+    margin-left: 570px;
+  }
+  h2 {
+    font-family:sans-serif
+     ;
+  }
+  h2 {
+    color:#51af4c
+     ;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    margin-right: 14px;
+  }
+  
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 6px;
+    margin-right: 11px;
+  }
+  
+  .input-section button {
+    padding: 6px 11px;
+    background-color: #51af4c;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .My expenses {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid #ddd;
+    padding: 9px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #B200ED;
+    color: rgb(255, 255, 255);
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 6px 11px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button{background-color: #4cafaa;
+ font-family: 'Times New Roman', Times, serif;
+color:white;}
